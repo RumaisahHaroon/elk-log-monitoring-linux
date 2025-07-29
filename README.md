@@ -11,13 +11,15 @@ This project demonstrates how to set up centralized log monitoring using the ELK
 - Ubuntu Linux
 
 ## 📦 Project Structure
-- `docker-compose.yml` – to spin up ELK stack services
-- `logstash.conf` – defines the Logstash pipeline
+-  project report
+- `docker-compose` – to spin up ELK stack services
+- `logstash` – defines the Logstash pipeline
 - `filebeat.yml` – configures Filebeat to collect `/var/log/syslog` and `/var/log/auth.log`
-- project report
+- Setup-instructions.md
+
 
 ## ⚙️ Setup Instructions
-See [`setup.md`](setup.md) for detailed step-by-step setup.
+See [setup.md](https://github.com/RumaisahHaroon/elk-log-monitoring-linux/blob/main/setup-instructions.md) for detailed step-by-step setup.
 
 ## 📊 Kibana Dashboard Preview
 ![IMG-20250727-WA0005](https://github.com/user-attachments/assets/5182a4d7-c880-45c0-a3b7-579cd8b1de53)
